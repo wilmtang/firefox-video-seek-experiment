@@ -17,6 +17,8 @@ automated comparison because the question here is the split audio/video pipeline
 - Firefox Nightly 154.0a1
 - geckodriver 0.37.0
 - Harness: `htmltests/bug_tests/bug2049301/seek-test.html`
+- Hosted profiler harness:
+  `https://wilmtang.github.io/htmltests/bug_tests/bug2049301/seek-test.html`
 - Iterations: 12 playback seeks per codec and direction
 - Matrix: browser x audible/muted x codec x +10/-10 seek
 
@@ -161,22 +163,54 @@ less consistent with "audio was not loaded" and more consistent with audible
 audio output work being on the critical path: audio sink startup/preroll,
 audio-clock restart, or A/V sync policy before allowing playback to resume.
 
+That distinction matters for interpreting the muted result. Muted playback does
+not remove the audio SourceBuffer, stop fetching the audio resource, or turn the
+resource into video-only media. It can, however, let the browser avoid or
+deprioritize work that only matters when audio must be rendered to the output
+device. In other words: muted can still decode/demux audio, but it may no longer
+let audio sink preroll and audible A/V clock restart block visible playback.
+
 In this run, Firefox Nightly muted reached the `resumed` proxy at 74.2 ms while
 Firefox Nightly audible reached it at 168.4 ms. That gap is the main reason the
 audio-output interpretation is plausible.
 
 ## Firefox Profiler Captures
 
-Planned capture target: one codec through the split-MSE path, using Firefox
-Nightly's Media profiler preset equivalent:
+Capture target: Firefox Nightly, one codec through the hosted split-MSE path,
+using the Media profiler preset equivalent:
 
 - features: `js,stackwalk,cpu,audiocallbacktracing,ipcmessages,processcpu,memory`
-- thread filters include: `GeckoMain`, `Compositor`, `Renderer`, `AudioIPC`,
-  `MediaDecoderStateMachine`, `MediaPlayback`, `MediaTimer`, `media`, `audio`,
-  `cubeb`, `decoder`, and related media threads.
+- thread filters include: `GeckoMain`, `Compositor`, `Renderer`, `media`,
+  `audio`, `cubeb`, `decoder`, and related preset filters such as
+  `BackgroundThreadPool`, `IPDL Background`, `Socket Thread`, and
+  `TextureUpdate`. Broader filters such as `media` are expected to catch
+  internal media threads whose exact names vary by build.
 
-Capture URLs will be added here after the GitHub Pages version is published and
-the audible/muted profiles are collected.
+Published harness URLs:
+
+- Audible AV1/MSE:
+  `https://wilmtang.github.io/htmltests/bug_tests/bug2049301/seek-test.html?auto=1&pIters=12&pipeline=mse&codec=av1`
+- Muted AV1/MSE:
+  `https://wilmtang.github.io/htmltests/bug_tests/bug2049301/seek-test.html?auto=1&pIters=12&pipeline=mse&codec=av1&muted=1`
+
+Firefox Profiler captures:
+
+| Capture | Profiler link | Page-side firstFrame medians | Page-side resumed medians |
+|---|---|---:|---:|
+| AV1/MSE audible | https://profiler.firefox.com/public/a65s7hw9a5hcdg8x8sf948h3hr63ry16szv56tg/ | +10 s 68.5 ms, -10 s 69.0 ms | +10 s 168.5 ms, -10 s 169.5 ms |
+| AV1/MSE muted | https://profiler.firefox.com/public/yf52f2d5xwcsgy7v8ep3tbx81enpsmn86ghg1cr/ | +10 s 23.5 ms, -10 s 24.5 ms | +10 s 72.5 ms, -10 s 72.0 ms |
+
+These captures intentionally use the same public GitHub Pages HTML rather than a
+local file URL or Selenium-only harness server. That removes one source of
+environment drift when sharing the profiles.
+
+Interpretation: the AV1 audible capture reproduces the earlier Firefox Nightly
+shape on the hosted page: target frame presentation is around 69 ms and the
+playback-resumed proxy is around 169 ms. With the same AV1 video segment and the
+same Opus audio segment appended through MSE, muting drops first-frame readiness
+to around 24 ms and resumed playback to around 72 ms. That is the stronger
+signal than the absolute numbers: the media bytes and MSE glue are held constant,
+while audible output policy changes the critical path.
 
 ## Findings
 
