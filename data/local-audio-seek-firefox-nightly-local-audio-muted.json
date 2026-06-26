@@ -1,0 +1,3756 @@
+{
+  "meta": {
+    "duration": 60,
+    "muted": true,
+    "videoHeight": 360,
+    "videoWidth": 640,
+    "volume": 0
+  },
+  "results": [
+    {
+      "canplayMs": 21,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.211465,
+      "events": [
+        {
+          "currentTime": 5.040449,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040449,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290291,
+          "readyState": 4,
+          "seeking": false,
+          "t": 276,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.792687,
+          "readyState": 4,
+          "seeking": false,
+          "t": 779,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.084831,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1070,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 28,
+      "firstFrameMediaTime": 15.040449,
+      "iteration": 1,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 21,
+      "startTime": 5.040449,
+      "target": 15.040449,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 32,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.189108,
+      "events": [
+        {
+          "currentTime": 5.040718,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040718,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.287316,
+          "readyState": 4,
+          "seeking": false,
+          "t": 285,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.574423,
+          "readyState": 4,
+          "seeking": false,
+          "t": 572,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.861207,
+          "readyState": 4,
+          "seeking": false,
+          "t": 858,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.148651,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1146,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 38,
+      "firstFrameMediaTime": 15.040718,
+      "iteration": 2,
+      "minReadyState": 1,
+      "playableEnoughMs": 37,
+      "seekedMs": 32,
+      "startTime": 5.040718,
+      "target": 15.040718,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 22,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.186375,
+      "events": [
+        {
+          "currentTime": 5.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.283801,
+          "readyState": 4,
+          "seeking": false,
+          "t": 273,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.571319,
+          "readyState": 4,
+          "seeking": false,
+          "t": 561,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.856591,
+          "readyState": 4,
+          "seeking": false,
+          "t": 846,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.14467,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1134,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 24,
+      "firstFrameMediaTime": 15.040454,
+      "iteration": 3,
+      "minReadyState": 1,
+      "playableEnoughMs": 30,
+      "seekedMs": 22,
+      "startTime": 5.040454,
+      "target": 15.040454,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.202222,
+      "events": [
+        {
+          "currentTime": 5.040875,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040875,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.286886,
+          "readyState": 4,
+          "seeking": false,
+          "t": 278,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575943,
+          "readyState": 4,
+          "seeking": false,
+          "t": 567,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.868891,
+          "readyState": 4,
+          "seeking": false,
+          "t": 860,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.15515,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1146,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 38,
+      "firstFrameMediaTime": 15.040875,
+      "iteration": 4,
+      "minReadyState": 1,
+      "playableEnoughMs": 31,
+      "seekedMs": 27,
+      "startTime": 5.040875,
+      "target": 15.040875,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 28,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.193821,
+      "events": [
+        {
+          "currentTime": 5.040475,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040475,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290788,
+          "readyState": 4,
+          "seeking": false,
+          "t": 284,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.576893,
+          "readyState": 4,
+          "seeking": false,
+          "t": 570,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.865151,
+          "readyState": 4,
+          "seeking": false,
+          "t": 858,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.152139,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1145,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 39,
+      "firstFrameMediaTime": 15.040475,
+      "iteration": 5,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 28,
+      "startTime": 5.040475,
+      "target": 15.040475,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 23,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.200958,
+      "events": [
+        {
+          "currentTime": 5.040579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.286389,
+          "readyState": 4,
+          "seeking": false,
+          "t": 275,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575733,
+          "readyState": 4,
+          "seeking": false,
+          "t": 564,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.867917,
+          "readyState": 4,
+          "seeking": false,
+          "t": 856,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.157485,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1145,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 24,
+      "firstFrameMediaTime": 15.040579,
+      "iteration": 6,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 23,
+      "startTime": 5.040579,
+      "target": 15.040579,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 25,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.169565,
+      "events": [
+        {
+          "currentTime": 5.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 1,
+          "seeking": true,
+          "t": 3,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289439,
+          "readyState": 4,
+          "seeking": false,
+          "t": 279,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.544964,
+          "readyState": 4,
+          "seeking": false,
+          "t": 534,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.811215,
+          "readyState": 4,
+          "seeking": false,
+          "t": 801,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.0793,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1069,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 34,
+      "firstFrameMediaTime": 15.040461,
+      "iteration": 7,
+      "minReadyState": 1,
+      "playableEnoughMs": 27,
+      "seekedMs": 25,
+      "startTime": 5.040461,
+      "target": 15.040461,
+      "waitingMs": 3
+    },
+    {
+      "canplayMs": 23,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.196248,
+      "events": [
+        {
+          "currentTime": 5.041026,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041026,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.288929,
+          "readyState": 4,
+          "seeking": false,
+          "t": 276,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.539457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 526,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.825182,
+          "readyState": 4,
+          "seeking": false,
+          "t": 812,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.114526,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1101,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 39,
+      "firstFrameMediaTime": 15.066666666666666,
+      "iteration": 8,
+      "minReadyState": 1,
+      "playableEnoughMs": 30,
+      "seekedMs": 23,
+      "startTime": 5.041026,
+      "target": 15.041026,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 23,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.208502,
+      "events": [
+        {
+          "currentTime": 5.041656,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041656,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290373,
+          "readyState": 4,
+          "seeking": false,
+          "t": 278,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.580161,
+          "readyState": 4,
+          "seeking": false,
+          "t": 569,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834266,
+          "readyState": 4,
+          "seeking": false,
+          "t": 822,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.122954,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1111,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 25,
+      "firstFrameMediaTime": 15.041656,
+      "iteration": 9,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 23,
+      "startTime": 5.041656,
+      "target": 15.041656,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 31,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.196989,
+      "events": [
+        {
+          "currentTime": 5.040958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 29,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 30,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 31,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 31,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.288819,
+          "readyState": 4,
+          "seeking": false,
+          "t": 285,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.577244,
+          "readyState": 4,
+          "seeking": false,
+          "t": 573,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.86871,
+          "readyState": 4,
+          "seeking": false,
+          "t": 864,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.157037,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1152,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 30,
+      "firstFrameMediaTime": 15.040958,
+      "iteration": 10,
+      "minReadyState": 1,
+      "playableEnoughMs": 34,
+      "seekedMs": 30,
+      "startTime": 5.040958,
+      "target": 15.040958,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 25,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.207098,
+      "events": [
+        {
+          "currentTime": 5.040696,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040696,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.291081,
+          "readyState": 4,
+          "seeking": false,
+          "t": 282,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.541848,
+          "readyState": 4,
+          "seeking": false,
+          "t": 534,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834645,
+          "readyState": 4,
+          "seeking": false,
+          "t": 826,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.124908,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1116,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 29,
+      "firstFrameMediaTime": 15.040696,
+      "iteration": 11,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 25,
+      "startTime": 5.040696,
+      "target": 15.040696,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 26,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.205921,
+      "events": [
+        {
+          "currentTime": 5.041372,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041372,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290199,
+          "readyState": 4,
+          "seeking": false,
+          "t": 280,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.542227,
+          "readyState": 4,
+          "seeking": false,
+          "t": 532,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 824,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.125296,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1115,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 27,
+      "firstFrameMediaTime": 15.041372,
+      "iteration": 12,
+      "minReadyState": 1,
+      "playableEnoughMs": 27,
+      "seekedMs": 25,
+      "startTime": 5.041372,
+      "target": 15.041372,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 30,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.167828,
+      "events": [
+        {
+          "currentTime": 5.040928,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 4,
+          "seeking": false,
+          "t": 29,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 4,
+          "seeking": false,
+          "t": 30,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 4,
+          "seeking": false,
+          "t": 30,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040928,
+          "readyState": 4,
+          "seeking": false,
+          "t": 31,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289338,
+          "readyState": 4,
+          "seeking": false,
+          "t": 285,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.542035,
+          "readyState": 4,
+          "seeking": false,
+          "t": 537,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834905,
+          "readyState": 4,
+          "seeking": false,
+          "t": 830,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.123627,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1119,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 37,
+      "firstFrameMediaTime": 15.040928,
+      "iteration": 13,
+      "minReadyState": 1,
+      "playableEnoughMs": 38,
+      "seekedMs": 30,
+      "startTime": 5.040928,
+      "target": 15.040928,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 29,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.206132,
+      "events": [
+        {
+          "currentTime": 5.043063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 29,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 29,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.043063,
+          "readyState": 4,
+          "seeking": false,
+          "t": 29,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289152,
+          "readyState": 4,
+          "seeking": false,
+          "t": 282,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.541479,
+          "readyState": 4,
+          "seeking": false,
+          "t": 534,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.833964,
+          "readyState": 4,
+          "seeking": false,
+          "t": 826,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.122889,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1115,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 38,
+      "firstFrameMediaTime": 15.043063,
+      "iteration": 14,
+      "minReadyState": 1,
+      "playableEnoughMs": 39,
+      "seekedMs": 29,
+      "startTime": 5.043063,
+      "target": 15.043063,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.167615,
+      "events": [
+        {
+          "currentTime": 5.041575,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041575,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.292537,
+          "readyState": 4,
+          "seeking": false,
+          "t": 285,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.579849,
+          "readyState": 4,
+          "seeking": false,
+          "t": 573,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.835052,
+          "readyState": 4,
+          "seeking": false,
+          "t": 827,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.123772,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1117,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 32,
+      "firstFrameMediaTime": 15.041575,
+      "iteration": 15,
+      "minReadyState": 1,
+      "playableEnoughMs": 27,
+      "seekedMs": 27,
+      "startTime": 5.041575,
+      "target": 15.041575,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 32,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.167714,
+      "events": [
+        {
+          "currentTime": 5.04089,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 4,
+          "seeking": false,
+          "t": 31,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.04089,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.297304,
+          "readyState": 4,
+          "seeking": false,
+          "t": 295,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.584366,
+          "readyState": 4,
+          "seeking": false,
+          "t": 581,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.874046,
+          "readyState": 4,
+          "seeking": false,
+          "t": 872,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.124954,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1123,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 34,
+      "firstFrameMediaTime": 15.04089,
+      "iteration": 16,
+      "minReadyState": 1,
+      "playableEnoughMs": 35,
+      "seekedMs": 32,
+      "startTime": 5.04089,
+      "target": 15.04089,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 32,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.167275,
+      "events": [
+        {
+          "currentTime": 5.040471,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040471,
+          "readyState": 4,
+          "seeking": false,
+          "t": 32,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290723,
+          "readyState": 4,
+          "seeking": false,
+          "t": 290,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.581551,
+          "readyState": 4,
+          "seeking": false,
+          "t": 581,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834984,
+          "readyState": 4,
+          "seeking": false,
+          "t": 834,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.125141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1124,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 33,
+      "firstFrameMediaTime": 15.040471,
+      "iteration": 17,
+      "minReadyState": 1,
+      "playableEnoughMs": 37,
+      "seekedMs": 32,
+      "startTime": 5.040471,
+      "target": 15.040471,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 19,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.208912,
+      "events": [
+        {
+          "currentTime": 5.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040454,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.291283,
+          "readyState": 4,
+          "seeking": false,
+          "t": 275,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.541729,
+          "readyState": 4,
+          "seeking": false,
+          "t": 525,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.831976,
+          "readyState": 4,
+          "seeking": false,
+          "t": 816,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.083281,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1067,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 30,
+      "firstFrameMediaTime": 15.040454,
+      "iteration": 18,
+      "minReadyState": 1,
+      "playableEnoughMs": 19,
+      "seekedMs": 19,
+      "startTime": 5.040454,
+      "target": 15.040454,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 23,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.192948,
+      "events": [
+        {
+          "currentTime": 5.040628,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040628,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.288202,
+          "readyState": 4,
+          "seeking": false,
+          "t": 275,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575158,
+          "readyState": 4,
+          "seeking": false,
+          "t": 563,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.864948,
+          "readyState": 4,
+          "seeking": false,
+          "t": 852,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.152323,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1140,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 32,
+      "firstFrameMediaTime": 15.040628,
+      "iteration": 19,
+      "minReadyState": 1,
+      "playableEnoughMs": 30,
+      "seekedMs": 23,
+      "startTime": 5.040628,
+      "target": 15.040628,
+      "waitingMs": 0
+    },
+    {
+      "canplayMs": 26,
+      "delta": 10,
+      "direction": "+10",
+      "endTime": 16.2006,
+      "events": [
+        {
+          "currentTime": 5.04141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.04141,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289043,
+          "readyState": 4,
+          "seeking": false,
+          "t": 280,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.542001,
+          "readyState": 4,
+          "seeking": false,
+          "t": 532,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.830684,
+          "readyState": 4,
+          "seeking": false,
+          "t": 821,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.117429,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1108,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 35,
+      "firstFrameMediaTime": 15.04141,
+      "iteration": 20,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 26,
+      "startTime": 5.04141,
+      "target": 15.04141,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 23,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.200484,
+      "events": [
+        {
+          "currentTime": 25.040765,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040765,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.291177,
+          "readyState": 4,
+          "seeking": false,
+          "t": 280,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.582488,
+          "readyState": 4,
+          "seeking": false,
+          "t": 571,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.871958,
+          "readyState": 4,
+          "seeking": false,
+          "t": 861,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.159813,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1149,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 25,
+      "firstFrameMediaTime": 15.040765,
+      "iteration": 1,
+      "minReadyState": 1,
+      "playableEnoughMs": 26,
+      "seekedMs": 23,
+      "startTime": 25.040765,
+      "target": 15.040765,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 23,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.188834,
+      "events": [
+        {
+          "currentTime": 25.04107,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.04107,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.575488,
+          "readyState": 4,
+          "seeking": false,
+          "t": 563,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.859305,
+          "readyState": 4,
+          "seeking": false,
+          "t": 847,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.1479,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1135,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 36,
+      "firstFrameMediaTime": 15.04107,
+      "iteration": 2,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 23,
+      "startTime": 25.04107,
+      "target": 15.04107,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 21,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.201736,
+      "events": [
+        {
+          "currentTime": 25.041734,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041734000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289865,
+          "readyState": 4,
+          "seeking": false,
+          "t": 274,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.581157,
+          "readyState": 4,
+          "seeking": false,
+          "t": 564,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.867083,
+          "readyState": 4,
+          "seeking": false,
+          "t": 851,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 21,
+      "firstFrameMediaTime": 15.041734,
+      "iteration": 3,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 21,
+      "startTime": 25.041734,
+      "target": 15.041734000000002,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 22,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.192983,
+      "events": [
+        {
+          "currentTime": 25.040582,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 4,
+          "seeking": false,
+          "t": 21,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040582,
+          "readyState": 4,
+          "seeking": false,
+          "t": 22,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.292041,
+          "readyState": 4,
+          "seeking": false,
+          "t": 278,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.576503,
+          "readyState": 4,
+          "seeking": false,
+          "t": 563,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.865101,
+          "readyState": 4,
+          "seeking": false,
+          "t": 851,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.152617,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1139,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 23,
+      "firstFrameMediaTime": 15.040582,
+      "iteration": 4,
+      "minReadyState": 1,
+      "playableEnoughMs": 26,
+      "seekedMs": 21,
+      "startTime": 25.040582,
+      "target": 15.040582,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 26,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.204956,
+      "events": [
+        {
+          "currentTime": 25.040517,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040517,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.289989,
+          "readyState": 4,
+          "seeking": false,
+          "t": 281,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.542222,
+          "readyState": 4,
+          "seeking": false,
+          "t": 532,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834487,
+          "readyState": 4,
+          "seeking": false,
+          "t": 825,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.124787,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1115,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 38,
+      "firstFrameMediaTime": 15.040517,
+      "iteration": 5,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 26,
+      "startTime": 25.040517,
+      "target": 15.040517,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 28,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.19833,
+      "events": [
+        {
+          "currentTime": 25.040751,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040751,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.287369,
+          "readyState": 4,
+          "seeking": false,
+          "t": 280,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.574774,
+          "readyState": 4,
+          "seeking": false,
+          "t": 567,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.825043,
+          "readyState": 4,
+          "seeking": false,
+          "t": 819,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.07604,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1069,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 32,
+      "firstFrameMediaTime": 15.040751,
+      "iteration": 6,
+      "minReadyState": 1,
+      "playableEnoughMs": 37,
+      "seekedMs": 28,
+      "startTime": 25.040751,
+      "target": 15.040751,
+      "waitingMs": 0
+    },
+    {
+      "canplayMs": 19,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.205154,
+      "events": [
+        {
+          "currentTime": 25.040659,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040659000000002,
+          "readyState": 4,
+          "seeking": false,
+          "t": 19,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.291248,
+          "readyState": 4,
+          "seeking": false,
+          "t": 273,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.541506,
+          "readyState": 4,
+          "seeking": false,
+          "t": 524,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834516,
+          "readyState": 4,
+          "seeking": false,
+          "t": 817,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.124524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1107,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 34,
+      "firstFrameMediaTime": 15.066666666666666,
+      "iteration": 7,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 19,
+      "startTime": 25.040659,
+      "target": 15.040659000000002,
+      "waitingMs": 0
+    },
+    {
+      "canplayMs": 24,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.188853,
+      "events": [
+        {
+          "currentTime": 25.041125,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 4,
+          "seeking": false,
+          "t": 23,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041125,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.286629,
+          "readyState": 4,
+          "seeking": false,
+          "t": 274,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575479,
+          "readyState": 4,
+          "seeking": false,
+          "t": 563,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.861112,
+          "readyState": 4,
+          "seeking": false,
+          "t": 849,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.148134,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1136,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 33,
+      "firstFrameMediaTime": 15.041125,
+      "iteration": 8,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 24,
+      "startTime": 25.041125,
+      "target": 15.041125,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 26,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.189492,
+      "events": [
+        {
+          "currentTime": 25.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040461,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.285681,
+          "readyState": 4,
+          "seeking": false,
+          "t": 275,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.574693,
+          "readyState": 4,
+          "seeking": false,
+          "t": 565,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.864795,
+          "readyState": 4,
+          "seeking": false,
+          "t": 854,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.148905,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1138,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 28,
+      "firstFrameMediaTime": 15.040461,
+      "iteration": 9,
+      "minReadyState": 1,
+      "playableEnoughMs": 30,
+      "seekedMs": 25,
+      "startTime": 25.040461,
+      "target": 15.040461,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 26,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.200721,
+      "events": [
+        {
+          "currentTime": 25.040887,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040887,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.292592,
+          "readyState": 4,
+          "seeking": false,
+          "t": 284,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.828521,
+          "readyState": 4,
+          "seeking": false,
+          "t": 819,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.116152,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1108,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 36,
+      "firstFrameMediaTime": 15.040887,
+      "iteration": 10,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 26,
+      "startTime": 25.040887,
+      "target": 15.040887,
+      "waitingMs": 0
+    },
+    {
+      "canplayMs": 25,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.20947,
+      "events": [
+        {
+          "currentTime": 25.041279,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041279,
+          "readyState": 4,
+          "seeking": false,
+          "t": 25,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290151,
+          "readyState": 4,
+          "seeking": false,
+          "t": 279,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.541084,
+          "readyState": 4,
+          "seeking": false,
+          "t": 530,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.791726,
+          "readyState": 4,
+          "seeking": false,
+          "t": 781,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.043288,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1033,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 25,
+      "firstFrameMediaTime": 15.041279,
+      "iteration": 11,
+      "minReadyState": 1,
+      "playableEnoughMs": 27,
+      "seekedMs": 25,
+      "startTime": 25.041279,
+      "target": 15.041279,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.20101,
+      "events": [
+        {
+          "currentTime": 25.041028,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041028,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.28527,
+          "readyState": 4,
+          "seeking": false,
+          "t": 277,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.5755,
+          "readyState": 4,
+          "seeking": false,
+          "t": 567,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.867821,
+          "readyState": 4,
+          "seeking": false,
+          "t": 860,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.15764,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1150,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 38,
+      "firstFrameMediaTime": 15.041028,
+      "iteration": 12,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 27,
+      "startTime": 25.041028,
+      "target": 15.041028,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 28,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.189686,
+      "events": [
+        {
+          "currentTime": 25.040463,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 1,
+          "seeking": true,
+          "t": 2,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040463,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.287503,
+          "readyState": 4,
+          "seeking": false,
+          "t": 281,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575892,
+          "readyState": 4,
+          "seeking": false,
+          "t": 569,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.862395,
+          "readyState": 4,
+          "seeking": false,
+          "t": 856,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.149165,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1143,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 37,
+      "firstFrameMediaTime": 15.040463,
+      "iteration": 13,
+      "minReadyState": 1,
+      "playableEnoughMs": 36,
+      "seekedMs": 28,
+      "startTime": 25.040463,
+      "target": 15.040463,
+      "waitingMs": 2
+    },
+    {
+      "canplayMs": 27,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.200786,
+      "events": [
+        {
+          "currentTime": 25.040457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040457,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.287565,
+          "readyState": 4,
+          "seeking": false,
+          "t": 279,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.574472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 565,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.825402,
+          "readyState": 4,
+          "seeking": false,
+          "t": 817,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.116536,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1108,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 31,
+      "firstFrameMediaTime": 15.040457,
+      "iteration": 14,
+      "minReadyState": 1,
+      "playableEnoughMs": 31,
+      "seekedMs": 27,
+      "startTime": 25.040457,
+      "target": 15.040457,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.168569,
+      "events": [
+        {
+          "currentTime": 25.041274,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041274,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.291745,
+          "readyState": 4,
+          "seeking": false,
+          "t": 283,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.542447,
+          "readyState": 4,
+          "seeking": false,
+          "t": 534,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.834552,
+          "readyState": 4,
+          "seeking": false,
+          "t": 827,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.12389,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1115,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 29,
+      "firstFrameMediaTime": 15.041274,
+      "iteration": 15,
+      "minReadyState": 1,
+      "playableEnoughMs": 36,
+      "seekedMs": 27,
+      "startTime": 25.041274,
+      "target": 15.041274,
+      "waitingMs": 0
+    },
+    {
+      "canplayMs": 24,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.19985,
+      "events": [
+        {
+          "currentTime": 25.040767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 24,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.286259,
+          "readyState": 4,
+          "seeking": false,
+          "t": 275,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.573853,
+          "readyState": 4,
+          "seeking": false,
+          "t": 563,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.823915,
+          "readyState": 4,
+          "seeking": false,
+          "t": 813,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.114986,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1104,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 28,
+      "firstFrameMediaTime": 15.040767,
+      "iteration": 16,
+      "minReadyState": 1,
+      "playableEnoughMs": 26,
+      "seekedMs": 24,
+      "startTime": 25.040767,
+      "target": 15.040767,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.205701,
+      "events": [
+        {
+          "currentTime": 25.040472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040472,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.29022,
+          "readyState": 4,
+          "seeking": false,
+          "t": 283,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.540892,
+          "readyState": 4,
+          "seeking": false,
+          "t": 533,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.082148,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1075,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 43,
+      "firstFrameMediaTime": 15.066666666666666,
+      "iteration": 17,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 27,
+      "startTime": 25.040472,
+      "target": 15.040472,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 26,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.200843,
+      "events": [
+        {
+          "currentTime": 25.041524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.041524,
+          "readyState": 4,
+          "seeking": false,
+          "t": 26,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.29129,
+          "readyState": 4,
+          "seeking": false,
+          "t": 281,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.580975,
+          "readyState": 4,
+          "seeking": false,
+          "t": 571,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.870289,
+          "readyState": 4,
+          "seeking": false,
+          "t": 860,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.157157,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1147,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 33,
+      "firstFrameMediaTime": 15.041524,
+      "iteration": 18,
+      "minReadyState": 1,
+      "playableEnoughMs": 28,
+      "seekedMs": 26,
+      "startTime": 25.041524,
+      "target": 15.041524,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 27,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.201613,
+      "events": [
+        {
+          "currentTime": 25.040891,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 1,
+          "seeking": true,
+          "t": 1,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040890999999998,
+          "readyState": 4,
+          "seeking": false,
+          "t": 27,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.290885,
+          "readyState": 4,
+          "seeking": false,
+          "t": 282,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.575767,
+          "readyState": 4,
+          "seeking": false,
+          "t": 567,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.866474,
+          "readyState": 4,
+          "seeking": false,
+          "t": 858,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.117579,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1109,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 37,
+      "firstFrameMediaTime": 15.040891,
+      "iteration": 19,
+      "minReadyState": 1,
+      "playableEnoughMs": 29,
+      "seekedMs": 27,
+      "startTime": 25.040891,
+      "target": 15.040890999999998,
+      "waitingMs": 1
+    },
+    {
+      "canplayMs": 28,
+      "delta": -10,
+      "direction": "-10",
+      "endTime": 16.198918,
+      "events": [
+        {
+          "currentTime": 25.040878,
+          "readyState": 4,
+          "seeking": false,
+          "t": 0,
+          "type": "before-seek"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "seeking"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 1,
+          "seeking": true,
+          "t": 0,
+          "type": "waiting"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "seeked"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "canplay"
+        },
+        {
+          "currentTime": 15.040878,
+          "readyState": 4,
+          "seeking": false,
+          "t": 28,
+          "type": "playing"
+        },
+        {
+          "currentTime": 15.288723,
+          "readyState": 4,
+          "seeking": false,
+          "t": 282,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 15.825242,
+          "readyState": 4,
+          "seeking": false,
+          "t": 818,
+          "type": "timeupdate"
+        },
+        {
+          "currentTime": 16.075764,
+          "readyState": 4,
+          "seeking": false,
+          "t": 1069,
+          "type": "timeupdate"
+        }
+      ],
+      "firstFrameAfterTargetMs": 33,
+      "firstFrameMediaTime": 15.040878,
+      "iteration": 20,
+      "minReadyState": 1,
+      "playableEnoughMs": 36,
+      "seekedMs": 28,
+      "startTime": 25.040878,
+      "target": 15.040878,
+      "waitingMs": 0
+    }
+  ],
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+  "browser": "firefox-nightly-local-audio-muted",
+  "browserVersion": "154.0a1",
+  "startedAt": "2026-06-25T22:46:45-0700",
+  "muted": true,
+  "summaries": [
+    {
+      "direction": "+10",
+      "n": 20,
+      "medianFirstFrameAfterTargetMs": 32.5,
+      "medianPlayableEnoughMs": 29.5,
+      "medianSeekedMs": 25.5,
+      "medianWaitingMs": 1.0,
+      "medianMinReadyState": 1.0,
+      "waitingCount": 20
+    },
+    {
+      "direction": "-10",
+      "n": 20,
+      "medianFirstFrameAfterTargetMs": 33.0,
+      "medianPlayableEnoughMs": 28.5,
+      "medianSeekedMs": 26.0,
+      "medianWaitingMs": 1.0,
+      "medianMinReadyState": 1.0,
+      "waitingCount": 20
+    }
+  ]
+}

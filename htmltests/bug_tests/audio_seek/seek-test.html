@@ -1,0 +1,343 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Audio seek readiness test</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font: 15px/1.45 system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 24px;
+    max-width: 1100px;
+  }
+  video {
+    display: block;
+    width: min(720px, 100%);
+    aspect-ratio: 16 / 9;
+    background: #111;
+    margin: 16px 0;
+  }
+  button {
+    font: inherit;
+    padding: 8px 14px;
+    margin-right: 8px;
+  }
+  table {
+    border-collapse: collapse;
+    margin: 18px 0;
+  }
+  th, td {
+    border: 1px solid color-mix(in srgb, CanvasText 22%, transparent);
+    padding: 7px 10px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  th:first-child, td:first-child,
+  th:nth-child(2), td:nth-child(2) {
+    text-align: left;
+  }
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    padding: 12px;
+    border: 1px solid color-mix(in srgb, CanvasText 22%, transparent);
+  }
+  .muted { color: color-mix(in srgb, CanvasText 70%, transparent); }
+</style>
+
+<h1>Audio seek readiness test</h1>
+<p>
+  Runs buffered +10 s and -10 s seeks on a local H.264/AAC test clip.
+  The same browser is tested once audible and once muted.
+</p>
+
+<video id="video" controls playsinline preload="auto"></video>
+<button id="run" disabled>Loading test clip...</button>
+<button id="copy" disabled>Copy JSON</button>
+<span id="status" class="muted"></span>
+
+<div id="summary"></div>
+<details>
+  <summary>Raw JSON</summary>
+  <pre id="raw">No run yet.</pre>
+</details>
+
+<script>
+const params = new URLSearchParams(location.search);
+const CLIP_URL = "../../../media/av-sync-h264-aac.mp4";
+const ITERATIONS = Number(params.get("iters") || 20);
+const SAMPLE_MS = Number(params.get("sample") || 8);
+const WINDOW_MS = Number(params.get("window") || 1200);
+const video = document.getElementById("video");
+const runButton = document.getElementById("run");
+const copyButton = document.getElementById("copy");
+const statusEl = document.getElementById("status");
+const summaryEl = document.getElementById("summary");
+const rawEl = document.getElementById("raw");
+let lastResult = null;
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function median(values) {
+  const nums = values.filter((value) => typeof value === "number").sort((a, b) => a - b);
+  if (!nums.length) return null;
+  const mid = Math.floor(nums.length / 2);
+  return nums.length % 2 ? nums[mid] : (nums[mid - 1] + nums[mid]) / 2;
+}
+
+function fmt(value) {
+  return typeof value === "number" ? `${value.toFixed(1)} ms` : "n/a";
+}
+
+function setStatus(text) {
+  statusEl.textContent = text;
+}
+
+function seekTo(target) {
+  return new Promise((resolve) => {
+    let done = false;
+    const finish = () => {
+      if (!done) {
+        done = true;
+        resolve();
+      }
+    };
+    video.addEventListener("seeked", finish, { once: true });
+    video.currentTime = target;
+    setTimeout(finish, 4000);
+  });
+}
+
+function measure(delta) {
+  return new Promise((resolve) => {
+    const startTime = video.currentTime;
+    const target = startTime + delta;
+    const t0 = performance.now();
+    const events = [];
+    const samples = [];
+    let firstFrame = null;
+
+    const mark = (type) => events.push({
+      type,
+      t: performance.now() - t0,
+      currentTime: video.currentTime,
+      readyState: video.readyState,
+      seeking: video.seeking,
+    });
+    const eventNames = ["seeking", "seeked", "waiting", "canplay", "playing", "stalled", "timeupdate"];
+    const listeners = eventNames.map((name) => {
+      const fn = () => mark(name);
+      video.addEventListener(name, fn, true);
+      return [name, fn];
+    });
+
+    const frameMatches = (mediaTime) =>
+      delta > 0 ? mediaTime >= target - 0.04 : mediaTime <= target + 0.04;
+    if (video.requestVideoFrameCallback) {
+      const onFrame = (_now, meta) => {
+        if (firstFrame === null && frameMatches(meta.mediaTime)) {
+          firstFrame = { t: performance.now() - t0, mediaTime: meta.mediaTime };
+        }
+        if (performance.now() - t0 < WINDOW_MS) {
+          video.requestVideoFrameCallback(onFrame);
+        }
+      };
+      video.requestVideoFrameCallback(onFrame);
+    }
+
+    const timer = setInterval(() => {
+      samples.push({
+        t: performance.now() - t0,
+        currentTime: video.currentTime,
+        readyState: video.readyState,
+        seeking: video.seeking,
+      });
+    }, SAMPLE_MS);
+
+    mark("before-seek");
+    video.currentTime = target;
+
+    setTimeout(() => {
+      clearInterval(timer);
+      for (const [name, fn] of listeners) {
+        video.removeEventListener(name, fn, true);
+      }
+      const eventTime = (name) => events.find((event) => event.type === name)?.t ?? null;
+      const playable = samples.find((sample) => !sample.seeking && sample.readyState >= 3);
+      resolve({
+        delta,
+        startTime,
+        target,
+        endTime: video.currentTime,
+        firstFrameAfterTargetMs: firstFrame?.t ?? null,
+        firstFrameMediaTime: firstFrame?.mediaTime ?? null,
+        playableEnoughMs: playable?.t ?? null,
+        seekedMs: eventTime("seeked"),
+        waitingMs: eventTime("waiting"),
+        canplayMs: eventTime("canplay"),
+        minReadyState: samples.reduce((min, sample) => Math.min(min, sample.readyState), video.readyState),
+        events,
+      });
+    }, WINDOW_MS);
+  });
+}
+
+async function runOneMode(mode, muted, iterations = ITERATIONS) {
+  video.muted = muted;
+  video.volume = muted ? 0 : 1;
+  await video.play();
+  const results = [];
+  for (const [start, delta, direction] of [[5, 10, "+10"], [25, -10, "-10"]]) {
+    for (let i = 0; i < iterations; i++) {
+      setStatus(`${mode} ${direction}, run ${i + 1}/${iterations}`);
+      await video.play();
+      await seekTo(start);
+      await sleep(80);
+      const row = await measure(delta);
+      row.mode = mode;
+      row.muted = muted;
+      row.direction = direction;
+      row.iteration = i + 1;
+      results.push(row);
+    }
+  }
+  return results;
+}
+
+function summarize(results) {
+  const summaries = [];
+  for (const mode of [...new Set(results.map((row) => row.mode))]) {
+    const directions = [...new Set(results.filter((row) => row.mode === mode).map((row) => row.direction))];
+    for (const direction of directions) {
+      const rows = results.filter((row) => row.mode === mode && row.direction === direction);
+      summaries.push({
+        mode,
+        direction,
+        n: rows.length,
+        firstFrameAfterTargetMs: median(rows.map((row) => row.firstFrameAfterTargetMs)),
+        playableEnoughMs: median(rows.map((row) => row.playableEnoughMs)),
+        seekedMs: median(rows.map((row) => row.seekedMs)),
+        waitingMs: median(rows.map((row) => row.waitingMs)),
+      });
+    }
+  }
+  return summaries;
+}
+
+async function runAudioSeek({ muted = false, iterations = ITERATIONS } = {}) {
+  const mode = muted ? "muted" : "audible";
+  const results = await runOneMode(mode, muted, iterations);
+  video.pause();
+  return {
+    title: document.title,
+    userAgent: navigator.userAgent,
+    media: {
+      clipUrl: CLIP_URL,
+      duration: video.duration,
+      videoWidth: video.videoWidth,
+      videoHeight: video.videoHeight,
+    },
+    config: {
+      iterations,
+      sampleMs: SAMPLE_MS,
+      windowMs: WINDOW_MS,
+    },
+    muted,
+    summaries: summarize(results),
+    results,
+  };
+}
+
+function render(result) {
+  const rows = result.summaries.map((row) => `
+    <tr>
+      <td>${row.mode}</td>
+      <td>${row.direction}</td>
+      <td>${row.n}</td>
+      <td>${fmt(row.firstFrameAfterTargetMs)}</td>
+      <td>${fmt(row.playableEnoughMs)}</td>
+      <td>${fmt(row.seekedMs)}</td>
+      <td>${fmt(row.waitingMs)}</td>
+    </tr>
+  `).join("");
+  summaryEl.innerHTML = `
+    <h2>Summary</h2>
+    <table>
+      <tr>
+        <th>Mode</th>
+        <th>Seek</th>
+        <th>Runs</th>
+        <th>First target frame</th>
+        <th>Playable enough</th>
+        <th>seeked</th>
+        <th>waiting</th>
+      </tr>
+      ${rows}
+    </table>
+  `;
+  rawEl.textContent = JSON.stringify(result, null, 2);
+  copyButton.disabled = false;
+}
+
+async function runTest() {
+  runButton.disabled = true;
+  copyButton.disabled = true;
+  summaryEl.innerHTML = "";
+  rawEl.textContent = "Running...";
+  try {
+    const audible = await runAudioSeek({ muted: false, iterations: ITERATIONS });
+    const muted = await runAudioSeek({ muted: true, iterations: ITERATIONS });
+    const results = [...audible.results, ...muted.results];
+    lastResult = {
+      title: document.title,
+      userAgent: navigator.userAgent,
+      media: {
+        clipUrl: CLIP_URL,
+        duration: video.duration,
+        videoWidth: video.videoWidth,
+        videoHeight: video.videoHeight,
+      },
+      config: {
+        iterations: ITERATIONS,
+        sampleMs: SAMPLE_MS,
+        windowMs: WINDOW_MS,
+      },
+      summaries: summarize(results),
+      results,
+    };
+    render(lastResult);
+    setStatus("done");
+  } catch (error) {
+    setStatus("failed");
+    rawEl.textContent = String(error && error.message ? error.message : error);
+  } finally {
+    runButton.disabled = false;
+  }
+}
+
+async function init() {
+  try {
+    const response = await fetch(CLIP_URL);
+    const blob = await response.blob();
+    video.src = URL.createObjectURL(blob);
+    await new Promise((resolve, reject) => {
+      video.addEventListener("loadeddata", resolve, { once: true });
+      video.addEventListener("error", () => reject(video.error), { once: true });
+    });
+    runButton.textContent = "Run Test";
+    runButton.disabled = false;
+    setStatus("ready");
+  } catch (error) {
+    runButton.textContent = "Failed to load test clip";
+    setStatus(String(error && error.message ? error.message : error));
+  }
+}
+
+runButton.addEventListener("click", runTest);
+copyButton.addEventListener("click", async () => {
+  if (!lastResult) return;
+  await navigator.clipboard.writeText(JSON.stringify(lastResult, null, 2));
+});
+window.runAudioSeek = runAudioSeek;
+init();
+</script>
