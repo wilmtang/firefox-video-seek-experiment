@@ -23,16 +23,30 @@ def median(rows, key):
 
 def summarize(results):
     out = []
-    for direction in sorted({r["direction"] for r in results}):
-        rows = [r for r in results if r["direction"] == direction]
+    groups = sorted({
+        (r.get("codec", "unknown"), r.get("pipeline", "unknown"), r.get("mode", "unknown"), r["direction"])
+        for r in results
+    })
+    for codec, pipeline, mode, direction in groups:
+        rows = [
+            r for r in results
+            if r.get("codec", "unknown") == codec
+            and r.get("pipeline", "unknown") == pipeline
+            and r.get("mode", "unknown") == mode
+            and r["direction"] == direction
+        ]
         out.append({
+            "codec": codec,
+            "pipeline": pipeline,
+            "mode": mode,
             "direction": direction,
             "n": len(rows),
             "medianFirstFrameAfterTargetMs": median(rows, "firstFrameAfterTargetMs"),
-            "medianPlayableEnoughMs": median(rows, "playableEnoughMs"),
             "medianSeekedMs": median(rows, "seekedMs"),
+            "medianFutureDataMs": median(rows, "futureDataMs"),
+            "medianPlayingMs": median(rows, "playingMs"),
+            "medianResumedMs": median(rows, "resumedMs"),
             "medianWaitingMs": median(rows, "waitingMs"),
-            "medianMinReadyState": median(rows, "minReadyState"),
             "waitingCount": sum(r.get("waitingMs") is not None for r in rows),
         })
     return out
@@ -55,16 +69,24 @@ def run(args):
     try:
         driver.get(
             f"http://127.0.0.1:{server.server_address[1]}/"
-            "htmltests/bug_tests/audio_seek/seek-test.html"
+            "htmltests/bug_tests/bug2049301/seek-test.html"
         )
         WebDriverWait(driver, 30).until(lambda d: d.execute_script("""
           const v = document.querySelector('video');
-          return !!window.runAudioSeek && !!v && v.readyState >= 2;
+          return !!window.runAudioSeek && !!v;
         """))
         result = driver.execute_async_script("""
           const done = arguments[arguments.length - 1];
           window.runAudioSeek(arguments[0]).then(done, (e) => done({ error: String(e) }));
-        """, {"muted": muted, "iterations": args.iterations, "sampleMs": args.sample_ms, "windowMs": args.window_ms})
+        """, {
+            "muted": muted,
+            "iterations": args.iterations,
+            "pipelines": ["mse"],
+            "sampleMs": args.sample_ms,
+            "windowMs": args.window_ms,
+        })
+        if "error" in result:
+            raise RuntimeError(result["error"])
         result.update({
             "browser": label,
             "browserVersion": driver.capabilities.get("browserVersion"),
